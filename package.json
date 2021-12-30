@@ -11,5 +11,12 @@
 		"name": "Penn State TLT",
 		"email": "zez1@psu.edu",
 		"url": "https://www.psu.edu/"
-	}
+	},
+	"samples": [
+		{
+			"displayName": "Game",
+			"description": "Single Player Game",
+			"path": "Samples~/Game"
+		}
+	]
 }
