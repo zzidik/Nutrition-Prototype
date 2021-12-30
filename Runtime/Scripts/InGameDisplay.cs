@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InGameDisplay : MonoBehaviour
+namespace NutritionPrototype
 {
-    public Text question;
-    public Image correctMark;
-    public Image incorrectMark;
-    public GameObject levelCompleteButtons;
+    public class InGameDisplay : MonoBehaviour
+    {
+        public Text question;
+        public Image correctMark;
+        public Image incorrectMark;
+        public GameObject levelCompleteButtons;
+    }
 }
