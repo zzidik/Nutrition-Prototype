@@ -1,0 +1,36 @@
+{
+	"name": "edu.psu.tlt.puppetjump",
+	"displayName": "PuppetJump",
+	"version": "0.2.2",
+	"description": "PuppetJump is a physics based VR framework for Unity.\nIt will serve as the middleware between Unity and your VR project.\nFor more information, and tutorials on how to use PuppetJump, please visit:\nhttps://sites.psu.edu/puppetjump",
+	"keywords": [
+		"VR",
+		"physics",
+		"framework"
+	],
+	"author": {
+		"name": "Penn State TLT",
+		"email": "zez1@psu.edu",
+		"url": "https://sites.psu.edu/puppetjump"
+	},
+	"samples": [
+		{
+			"displayName": "Core Demo",
+			"description": "Demo the core functionality of PuppetJump.",
+			"path": "Samples~/Core Demo"
+		},
+		{
+			"displayName": "PJ2DUI Demo",
+			"description": "Demo a collection of Unity World Space Canvas UI elements that are fully integrated with PuppetJump.",
+			"path": "Samples~/PJ2DUI Demo"
+		},
+		{
+			"displayName": "PJ3DUI Demo",
+			"description": "Demo a collection of 3D UI elements that are fully integrated with PuppetJump.",
+			"path": "Samples~/PJ3DUI Demo"
+		}
+	],
+	"dependencies": {
+		"edu.psu.tlt.forcibles": "https://git.psu.edu/tlt-immersive-experiences/Forcibles.git"
+	}
+}
