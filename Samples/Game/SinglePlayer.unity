@@ -228,6 +228,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 1
     isSelectedAtStart: 0
@@ -1885,6 +1886,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1771898030426438940, guid: ecda37ae583b5b847a9943e0edc27396, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1771898030426438940, guid: ecda37ae583b5b847a9943e0edc27396, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.43921572
+      objectReference: {fileID: 0}
+    - target: {fileID: 1771898030426438940, guid: ecda37ae583b5b847a9943e0edc27396, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.38823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 1771898030426438940, guid: ecda37ae583b5b847a9943e0edc27396, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.36078432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecda37ae583b5b847a9943e0edc27396, type: 3}
 --- !u!114 &1093693686 stripped
@@ -2001,6 +2018,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 0
     isSelectedAtStart: 0
@@ -2670,6 +2688,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 1
     isSelectedAtStart: 0
@@ -4111,6 +4130,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 1
     isSelectedAtStart: 1
@@ -4395,6 +4415,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 0
     isSelectedAtStart: 0
@@ -4811,6 +4832,7 @@ MonoBehaviour:
     handsTouching: []
     isFocused: 0
     wasFocused: 0
+    isActivated: 0
   toggle:
     isToggle: 0
     isSelectedAtStart: 0
